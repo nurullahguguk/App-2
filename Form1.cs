@@ -89,22 +89,22 @@ namespace OCR
             }
             vdiff_tbx.Text = vDiff.ToString();
 
-                /* for (int j = 0; j < chBitmap.Height; j++)
+            /* for (int j = 0; j < chBitmap.Height; j++)
+             {
+                 chHorizontalProj[j] = 0;
+                 for (int i = 0; i < chBitmap.Width; i++)
                  {
-                     chHorizontalProj[j] = 0;
-                     for (int i = 0; i < chBitmap.Width; i++)
+                     Color tmp = chBitmap.GetPixel(i, j);
+                     int greyPx = (tmp.R + tmp.G + tmp.B) / 3;
+
+                     if (greyPx < 128)
                      {
-                         Color tmp = chBitmap.GetPixel(i, j);
-                         int greyPx = (tmp.R + tmp.G + tmp.B) / 3;
-
-                         if (greyPx < 128)
-                         {
-                             chHorizontalProj[j]++;
-                         }
+                         chHorizontalProj[j]++;
                      }
-                 }*/
-            }
-
+                 }
+             }*/
+        }
+        //
         private void generate_knowledge_base_btn_Click(object sender, EventArgs e)
         {
             fBitmap = new Bitmap(pictureBox1.Image);
@@ -126,16 +126,16 @@ namespace OCR
 
             //Allignment
             int pivot = 0;
-            for(int i = 0; i < fVerticalProj.Length; i++)
+            for (int i = 0; i < fVerticalProj.Length; i++)
             {
-                if(fVerticalProj[i] != 0)
+                if (fVerticalProj[i] != 0)
                 {
                     pivot = i;
                     break;
                 }
             }
 
-            for(int i = 0;i < fVerticalProj.Length - pivot; i++)
+            for (int i = 0; i < fVerticalProj.Length - pivot; i++)
             {
                 fVerticalProj[i] = fVerticalProj[pivot + i];
             }
@@ -169,91 +169,6 @@ namespace OCR
                     }
                 }
             }*/
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void fh_tvb_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void vdiff_tbx_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void hdiff_tbx_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void charv_tbx_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void charh_tbx_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void fv_tbx_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void path_txb_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -82,7 +82,7 @@
             this.path_txb.Size = new System.Drawing.Size(273, 20);
             this.path_txb.TabIndex = 2;
             this.path_txb.Text = "C:\\NGSoftware\\Image Processing\\App-2\\Image\\char1.bmp";
-            this.path_txb.TextChanged += new System.EventHandler(this.path_txb_TextChanged);
+
             // 
             // label1
             // 
@@ -93,7 +93,7 @@
             this.label1.Size = new System.Drawing.Size(48, 13);
             this.label1.TabIndex = 3;
             this.label1.Text = "File Path";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+       
             // 
             // label2
             // 
@@ -104,7 +104,7 @@
             this.label2.Size = new System.Drawing.Size(48, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "F H_Proj";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+           
             // 
             // fh_tvb
             // 
@@ -113,7 +113,7 @@
             this.fh_tvb.Name = "fh_tvb";
             this.fh_tvb.Size = new System.Drawing.Size(357, 20);
             this.fh_tvb.TabIndex = 5;
-            this.fh_tvb.TextChanged += new System.EventHandler(this.fh_tvb_TextChanged);
+           
             // 
             // fv_tbx
             // 
@@ -122,7 +122,7 @@
             this.fv_tbx.Name = "fv_tbx";
             this.fv_tbx.Size = new System.Drawing.Size(357, 20);
             this.fv_tbx.TabIndex = 7;
-            this.fv_tbx.TextChanged += new System.EventHandler(this.fv_tbx_TextChanged);
+           
             // 
             // label3
             // 
@@ -133,7 +133,7 @@
             this.label3.Size = new System.Drawing.Size(47, 13);
             this.label3.TabIndex = 6;
             this.label3.Text = "F V_Proj";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            
             // 
             // charv_tbx
             // 
@@ -142,7 +142,7 @@
             this.charv_tbx.Name = "charv_tbx";
             this.charv_tbx.Size = new System.Drawing.Size(357, 20);
             this.charv_tbx.TabIndex = 11;
-            this.charv_tbx.TextChanged += new System.EventHandler(this.charv_tbx_TextChanged);
+            
             // 
             // label4
             // 
@@ -153,7 +153,7 @@
             this.label4.Size = new System.Drawing.Size(63, 13);
             this.label4.TabIndex = 10;
             this.label4.Text = "Char V_Proj";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            
             // 
             // charh_tbx
             // 
@@ -162,7 +162,7 @@
             this.charh_tbx.Name = "charh_tbx";
             this.charh_tbx.Size = new System.Drawing.Size(357, 20);
             this.charh_tbx.TabIndex = 9;
-            this.charh_tbx.TextChanged += new System.EventHandler(this.charh_tbx_TextChanged);
+            
             // 
             // label5
             // 
@@ -173,7 +173,7 @@
             this.label5.Size = new System.Drawing.Size(64, 13);
             this.label5.TabIndex = 8;
             this.label5.Text = "Char H_Proj";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            
             // 
             // vdiff_tbx
             // 
@@ -182,7 +182,7 @@
             this.vdiff_tbx.Name = "vdiff_tbx";
             this.vdiff_tbx.Size = new System.Drawing.Size(357, 20);
             this.vdiff_tbx.TabIndex = 15;
-            this.vdiff_tbx.TextChanged += new System.EventHandler(this.vdiff_tbx_TextChanged);
+            
             // 
             // label6
             // 
@@ -193,7 +193,7 @@
             this.label6.Size = new System.Drawing.Size(33, 13);
             this.label6.TabIndex = 14;
             this.label6.Text = "V Diff";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+            
             // 
             // hdiff_tbx
             // 
@@ -202,7 +202,7 @@
             this.hdiff_tbx.Name = "hdiff_tbx";
             this.hdiff_tbx.Size = new System.Drawing.Size(357, 20);
             this.hdiff_tbx.TabIndex = 13;
-            this.hdiff_tbx.TextChanged += new System.EventHandler(this.hdiff_tbx_TextChanged);
+            
             // 
             // label7
             // 
@@ -213,7 +213,7 @@
             this.label7.Size = new System.Drawing.Size(34, 13);
             this.label7.TabIndex = 12;
             this.label7.Text = "H Diff";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            
             // 
             // pictureBox2
             // 
@@ -223,7 +223,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(195, 252);
             this.pictureBox2.TabIndex = 17;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            
             // 
             // pictureBox1
             // 
@@ -235,7 +235,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            
             // 
             // label8
             // 
@@ -274,7 +274,7 @@
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

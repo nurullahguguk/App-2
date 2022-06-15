@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App-2", "App-2.csproj", "{34CA28B6-D602-4C5F-AB23-7401B793DF0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCR Utility", "OCR Utility.csproj", "{34CA28B6-D602-4C5F-AB23-7401B793DF0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
